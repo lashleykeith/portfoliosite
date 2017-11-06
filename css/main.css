@@ -1,0 +1,179 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ol,ul{
+   margin: 0px 10px;
+   padding: 10px 0.1px;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #424242;
+
+}
+
+#topContainer{
+      background-image: url(../images/centercode.jpg);
+      height:400px;
+      width:100%;
+      background-size:cover;
+    }
+
+h1, h2, h3, h4, h5 {
+  margin: 20;  
+}
+
+
+.left{
+  text-align: right
+}
+.product_container{
+  width:100%;
+  height:250px;
+
+}
+article.description{
+  margin: 0px 100px;
+  padding-top: 50px;
+  color:white;
+  line-height: 200%;
+}
+
+.products{
+  display:inline-block;
+  width:160px;
+  height:220px;
+  padding-top:5px;
+  text-align:center;
+  margin:0px 100px;
+    
+}
+
+
+.products a{
+  display:inline-block;
+  text-decoration:none;
+  font-size:0.8em;
+  color:#6a6a6a;
+}
+
+
+.products span{
+  display:inline-block;
+  padding:5px 10px;
+  
+}
+
+.products img{
+  border:5px solid #fff;
+  border-radius:5px;
+  box-shadow:0px 5px 5px rgba(0,0,0,0.5);
+  margin: 5px;
+  height: 300px;
+  width: 300px;
+  
+}
+
+.newcolor{
+  color: white;
+  font-size: 30px;
+}
+
+.header__logo {
+  height: 72px;
+  margin-right: 1em;
+  vertical-align: top;
+  margin-top: 12px;
+  opacity: 0.25;
+  filter: alpha(opacity=50);
+}
+.center {
+  text-align: center;
+}
+
+
+/*
+ *
+ * Top Level Navigation
+ *
+ */
+
+.nav__item {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    line-height: 24px;
+    padding: 24px;
+    text-transform: uppercase;
+}
+
+
+.hero {
+  width: 100%;
+  height: 40%;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: : 2em;
+  position: relative;
+  background-image: url("./images/centercode.jpg");
+  background-size: cover;
+  min-height: 300px;
+}
+
+
+ol, ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding: 20px 0 20px;
+    vertical-align: middle;
+}
+a:hover, a:focus, a:active {
+    color: #999;
+    text-decoration: none;
+}
+a {
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;    text-decoration: none;
+    transition: color 1.2s, background-color 5.1s;
+}
+a {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0 12px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: #000;
+}
+a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+}
+a:active::before {
+    background-color: #000;
+}
+a:hover::before, a:focus::before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
