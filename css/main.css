@@ -17,12 +17,11 @@ body {
 
 }
 
-#topContainer{
-      background-image: url(../images/centercode.jpg);
-      height:400px;
-      width:100%;
-      background-size:cover;
-    }
+#email{
+   color: green;
+   font-weight: bold;
+}
+
 
 h1, h2, h3, h4, h5 {
   margin: 20;  
@@ -116,16 +115,12 @@ article.description{
 
 .hero {
   width: 100%;
-  height: 40%;
-  margin-top: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-bottom: : 2em;
   position: relative;
-  background-image: url("./images/centercode.jpg");
+  background-image: url(../images/centercode.jpg);
   background-size: cover;
   min-height: 300px;
 }
+
 
 
 ol, ul {
@@ -177,3 +172,38 @@ a:hover::before, a:focus::before {
     transform-origin: left top;
     transform: scale(1, 1);
 }
+
+
+/* fourth example */
+.fixed-size-container {
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+  background-color: #FFF;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fixed-size {
+  width: 350px;
+  height: 320px;
+  background-color: #990b47;
+  color: #FFF;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 20px;
+
+}
+
+
+
+.fixed-size:nth-child(1){background-image: url(../images/b_zipcode1.jpg);}
+.fixed-size:nth-child(2){background-image: url(../images/b_address2.jpg);}
+.fixed-size:nth-child(3){background-image: url(../images/b_findjob1.jpg);}
+.fixed-size:nth-child(4){background-image: url(../images/b_coffee1.jpg);}
+.fixed-size:nth-child(5){background-image: url(../images/b_weather.jpg);}
+.fixed-size:nth-child(6){background-image: url(../images/b_zipcode1.jpg);}

@@ -9,6 +9,22 @@
   display: none;
 }
 
+.hero{
+  order: 0;
+}
+
+@media screen and (min-width: 611px) {
+  .hero {
+    order: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero {
+    width: 100%;
+  }
+}
 
 
 /* effects the header options */
