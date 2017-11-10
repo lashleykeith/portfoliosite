@@ -40,9 +40,6 @@ body {
 }
 
 
-h1, h2, h3, h4, h5 {
-  margin: 20;  
-}
 
 
 .left{
@@ -106,7 +103,7 @@ article.description{
   vertical-align: top;
   margin-top: 12px;
   opacity: 0.25;
-  filter: alpha(opacity=50);
+
 }
 .center {
   text-align: center;
