@@ -4,6 +4,8 @@ This is portfolio site that I will update continually.
 This contains the following projects:
 addressbook, weathertracker, weatherapp, social media blog and zip-coder finder.  More will be posted soon.
 
+![screenshot_15](https://user-images.githubusercontent.com/21030885/39529038-ae768378-4e60-11e8-8196-6824f914b054.jpg)
+
 ## Image modifier apps
 In order to help you manage your images I have included the images folder.  Simply go to the images folder
 and write python script.py.  This will re-format the files according to the dimensions. You can format this file
